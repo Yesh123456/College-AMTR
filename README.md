@@ -1,96 +1,87 @@
-# College-ERP
+
+# College-AMTR
+
 A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table.
 
+In LOGIN , The username for all is different but password for everyone is 'project123'.
+
+Example usernames:
+student- 'aayan'
+teacher- 'guru'
 ## Installation
 
-Python and Django need to be installed
+Install my-project as zip or clone.
 
 ```bash
-pip install django
+    git clone https://github.com/Yesh123456/College-AMTR.git
 ```
 
-## Usage
-
-Go to the College-ERP folder and run
+Install Django.(For Ubuntu)
 
 ```bash
-python manage.py runserver
+     pip install django
 ```
-
-Then go to the browser and enter the url **http://127.0.0.1:8000/**
-
-
-## Login
-
-The login page is common for students and teachers.  
-The username is their name and password for everyone is 'project123'.  
-
-Example usernames:  
-student- 'samarth'  
-teacher- 'trisila'  
-
-You can access the django admin page at **http://127.0.0.1:8000/admin** and login with username 'admin' and the above password.
-
-Also a new admin user can be created using
+Create VirtualEnv.
 
 ```bash
-python manage.py createsuperuser
+    virtualenv myenv
+    cd
+    source bin/activate
 ```
 
-## Users
+Run requirements.txt file.
 
-New students and teachers can be added through the admin page. A new user needs to be created for each. 
+```bash
+    sudo install -r requirements.txt
+```
 
-The admin page is used to modify all tables such as Students, Teachers, Departments, Courses, Classes etc.
+Run your project:
 
-**For more details regarding the system and features please refer the reports included.**
+```bash
+    python manage.py runserver
+```
 
-## Update (29/11/2020)
+If you want to change data from database, then create django superuser.
 
-Added method to reset attendance time range in Django Admin page.
+```bash
+    python manage.py createsuperuser
+    pytthon manage.py runserver
+```
 
-![alt_text](https://i.imgur.com/0xOWmUZ.png)
+Now when you are running your project on https://localhost:8000/admin
 
-This is present in Django Admin -> Attendance (http://127.0.0.1:8000/admin/info/attendanceclass/).  
-Start Date: Start Date of Attendance period  
-End Date: End Date of Attendance period
+LOGIN with newly created essentials.
 
-This will delete all present attendance data and create new attendance objects for the given time range. 
+## Features
 
+- ColorFull scheme
+- Live previews
+- Responsive app
+- Web Application
+
+  
 ## Screenshots
 
-### Teacher Page
+![App Screenshot](screenshot/screenshot1.png)
 
-![alt text](https://imgur.com/pMAoEbG.png)
+![App Screenshot](screenshot/screenshot2.png)
 
-![alt text](https://imgur.com/ZiQ3RRA.png)
+![App Screenshot](screenshot/screenshot3.png)
 
-![alt text](https://imgur.com/i025CJW.png)
 
-![alt text](https://imgur.com/HQlLYmC.png)
 
-![alt text](https://imgur.com/j6RyBmU.png)
 
-![alt text](https://imgur.com/xIKEMvQ.png)
+## Feedback
 
-![alt text](https://imgur.com/4Rl7Fpv.png)
+If you have any feedback, please reach out to us at isco30427@gmail.com
 
-### Student Page
+  
+## Badges
 
-![alt text](https://imgur.com/isL9cjz.png)
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-![alt text](https://imgur.com/5pzl7m3.png)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-![alt text](https://imgur.com/7zWhHZx.png)
-
-![alt text](https://imgur.com/fu7gxk8.png)
-
-![alt text](https://imgur.com/NZqU268.png)
-
-### Admin Page
-
-![alt text](https://imgur.com/sDvDc9N.png)
-
-![alt text](https://imgur.com/tMKWx6f.png)
-
-![alt text](https://imgur.com/PvCsNeB.png)
+  
