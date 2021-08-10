@@ -62,9 +62,9 @@ LOGIN with newly created essentials.
   
 ## Screenshots
 
-![App Screenshot](screenshot/screeenshot1.png)
+![App Screenshot](screenshot/screenshot1.png)
 
-![App Screenshot](screenshot/screenshot2.png)
+![App Screenshot](screenshot/screeenshot2.png)
 
 ![App Screenshot](screenshot/screenshot3.png)
 
