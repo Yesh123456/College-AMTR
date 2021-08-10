@@ -25,7 +25,7 @@ Create VirtualEnv.
 
 ```bash
     virtualenv myenv
-    cd
+    cd myenv
     source bin/activate
 ```
 
